@@ -1,7 +1,7 @@
 from cosmos import get_bot
 
 if __name__ == "__main__":
-    bot = get_bot()
+    bot = get_bot(NzE1MTI5NjAyODEyNDExOTQ1.Xun1-g._MSwzvq60uEwsMccdeKUfRzvmsg)
     try:
         bot.eh.sentry.init(**bot.configs.sentry.raw)  # Initialise sentry for deeper integration.
     except bot.eh.sentry.utils.BadDsn:
